@@ -1,16 +1,20 @@
 # Jekyll options.
 name: Site Name
-domain: http://example.com
+#domain: http://example.com
 markdown: redcarpet
 pygments: true
 
 exclude:
   - CHANGELOG.md
   - LICENSE.txt
-  - README.md
   - VERSION
-  - Gemfile.lock
+  - unicorn.rb
+  - README.md
+  - Procfile
   - Gemfile
+  - Gemfile.lock
+  - config.ru
+  - vendor
   - Rakefile
   - bower.json
   - bower_components
