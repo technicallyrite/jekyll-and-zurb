@@ -10,7 +10,7 @@ gem 'bump', '~> 0.5.0'
 gem 'jekyll', '~> 1.2.1'
 gem 'RedCloth'
 gem 'rack-jekyll'
-gem 'thin'
+gem 'unicorn'
 
 # Jekyll::AssetsPlugin and dependencies
 gem 'jekyll-assets', '~> 0.7.2'
