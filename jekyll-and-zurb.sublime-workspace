@@ -1,0 +1,920 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getOtherDate"
+			],
+			[
+				"date",
+				"dateText"
+			],
+			[
+				"num",
+				"numClass"
+			],
+			[
+				"sel",
+				"selectedDate"
+			],
+			[
+				"image_tag_w",
+				"image_tag_with_at2x"
+			],
+			[
+				"image_tag_",
+				"image_tag_with_at2x"
+			],
+			[
+				"ad",
+				"adults"
+			],
+			[
+				"focu",
+				"focusForm"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"first",
+				"firstOfCategory"
+			],
+			[
+				"setup",
+				"setupTypeAhead"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"image",
+				"image_tag_with_at2x"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"button",
+				"buttonPolyfill"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"proxim",
+				"proximanova-bold-webfont"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"should",
+				"shouldAllowSearch"
+			],
+			[
+				"submit",
+				"submitAction"
+			],
+			[
+				"form",
+				"form_helper"
+			],
+			[
+				"cbt",
+				"cbTabContent"
+			],
+			[
+				"ribbon",
+				"ribbonSubTitle"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"book-",
+				"book-a-flight"
+			],
+			[
+				"book",
+				"book-a-hotel"
+			],
+			[
+				"loca",
+				"locationServiceCitiesFeedback"
+			],
+			[
+				"place",
+				"placenameFromPostal"
+			],
+			[
+				"update",
+				"updateLocationFields"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Jekyll & ZURB\n\n[![Dependency Status](https://gemnasium.com/razor-x/jekyll-and-zurb.png)](https://gemnasium.com/razor-x/jekyll-and-zurb)\n[![Build Status](https://travis-ci.org/razor-x/jekyll-and-zurb.png?branch=master)](https://travis-ci.org/razor-x/jekyll-and-zurb)\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/razor-x/jekyll-and-zurb/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\")\n\nSource for your personal blog running on Jekyll and Foundation.\nJust clone and blog: create the `_posts` and `_drafts` folder.\n\n- Bare bones [Jekyll](http://jekyllrb.com/) blog: HTML5 & CSS3 ready.\n- Running [Foundation by ZURB](http://foundation.zurb.com/).\n- Asset pipeline with [Jekyll::AssetsPlugin](https://github.com/ixti/jekyll-assets).\n- Bower for asset dependency management.\n- Plugins for easy responsive images and YouTube videos.\n- [Compass](http://compass-style.org/), [Sass](http://sass-lang.com/), [CoffeeScript](http://coffeescript.org/).\n- Basic [Rake](https://github.com/jimweirich/rake) tasks with support for dev and testing modes, run `rake -D` for info.\n- Meta data system for SEO.\n- [Disqus](https://disqus.com/) ready: set `disqus: your_shortname` in `_config.yml`.\n- [Google Analytics](http://www.google.com/analytics/) ready: see `google_analytics` variable in `_config.yml`.\n- [Piwik](https://piwik.org/) ready: set `piwik: yoursite.com/piwik/` in `_config.yml` (yoursite.com/piwik/ points to the piwik install root).\n\n## Quick start\n\nJust clone this with\n\n    git clone https://github.com/technicallyrite/jekyll-and-zurb.git my_blog\n\nrun `bundle && bower install` and create the `_posts` folder.\nHead over to the [Jekyll Docs](http://jekyllrb.com/docs/home/) for the rest of the details.\n\n## Add future update support\n\nIf you want to merge in future updates from this project and have your own origin,\nset up a separate branch to track this.\n\n    git remote rename origin razorx-jekyll-and-zurb\n    git branch jekyll-and-zurb\n    git branch -u razorx-jekyll-and-zurb/master jekyll-and-zurb\n\nThen add an origin and push master\n\n    git remote add origin git@github.com:username/username-blog.git\n    git push -u origin master\n\nNow, the `razorx-jekyll-and-zurb` branch will pull changes from this project,\nwhich you can then merge into your other branches.\n\n## Updating\n\nThe `Gemfile` is using pessimistic version constraints for everything,\nso if you want major updates, you need to bump the versions yourself.\n\nJavaScript library versions need to be updated in `bower.json` and `_config.yml`.\n\nIf you update Foundation, but sure to update the version numbers in `Gemfile` and `bower.json`.\n\n## License\n\nThis code is licensed under the MIT license.\n\n## Warranty\n\nThis software is provided \"as is\" and without any express or\nimplied warranties, including, without limitation, the implied\nwarranties of merchantibility and fitness for a particular\npurpose.\n",
+			"file": "README.md",
+			"file_size": 2877,
+			"file_write_time": 1383599993000000,
+			"settings":
+			{
+				"buffer_size": 2885,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"syntax",
+				"Set Syntax: YAML"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"forma",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tags onsel",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"sass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"beaut",
+				"BeautifyRuby"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 436.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Projects/hermes.github.io/README.md",
+		"/Projects/hermes.github.io/params.json",
+		"/Projects/hermes.github.io/stylesheets/pygment_trac.css",
+		"/Projects/locomotive_test/wagon_foundation/Gemfile",
+		"/Projects/locomotive_test/locomotive_engine/Gemfile",
+		"/Projects/tvly-mktg/app/views/static/_footer-mobile.html.erb",
+		"/Projects/tvly-mktg/app/views/static/_header-mobile.html.erb",
+		"/Projects/tvly-mktg/app/controllers/static_controller.rb",
+		"/Projects/tvly-mktg/app/assets/javascripts/tvly_mktg.js",
+		"/Projects/tvly-mktg/app/views/layouts/mobile.html.erb",
+		"/Projects/travelocity/travelocity dev/mobile landing pages/coupons/responsive-coupons5/index.html",
+		"/Projects/tvly-mktg/app/assets/stylesheets/application.css",
+		"/Projects/tvly-mktg/config/database.yml",
+		"/Projects/tvly-mktg/config/environments/development.rb",
+		"/Projects/tvly-mktg/config/environment.rb",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/Projects/tvly-mktg/public/index.html",
+		"/Projects/tvly-mktg/.ruby-version",
+		"/Projects/tvly-mktg/app/assets/stylesheets/response.scss",
+		"/Projects/tvly-mktg/app/assets/stylesheets/tvly_demo.css.scss",
+		"/Projects/tvly-mktg/app/assets/javascripts/tvly_demo.js",
+		"/Projects/demo-dev-hp-full/app/views/static/start.html.erb",
+		"/Projects/demo-dev-hp-full/public/search.html",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/response.scss",
+		"/Projects/demo-dev-hp-full/config/environments/production.rb",
+		"/Projects/cannonball-variant-tests/hp-test3-button/c/etc/designs/aggregated/css/site_us-TvlyCBTest3Button.css",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/style.scss",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/tvly_demo.js",
+		"/Projects/demo-dev-hp-full/public/index.html",
+		"/Projects/demo-dev-hp-full/app/views/static/_header.html.erb",
+		"/Projects/demo-dev-hp-full/app/views/layouts/application.html.erb",
+		"/Projects/demo-dev-hp-full/Gemfile",
+		"/Projects/demo-dev-hp-full/config.ru",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/application.js",
+		"/Projects/demo-dev-hp-full/app/views/static/_footer.html.erb",
+		"/Projects/demo-dev-hp-full/public/dispatch.fcgi",
+		"/Projects/demo-dev-hp-full/Procfile",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/plugins.js",
+		"/Projects/demo-cb-dev/app/assets/javascripts/tvlyDemoStart.js",
+		"/Projects/demo-cb-dev/app/views/static/start.html.erb",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/tvly_demo.css.scss",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/typeahead.css",
+		"/Projects/demo-dev-hp-full/config/environment.rb",
+		"/Projects/demo-dev-hp-full/config/environments/development.rb",
+		"/Applications/Microsoft Communicator.app/Contents/Info.plist",
+		"/Projects/travelocity/travelocity dev/tvlyuatdemos/checkout ref archives/scenario-picker/improvingclients.com/tvly/hcr/index.html",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/tvly_demo_geo_location.js",
+		"/Projects/demo-dev-hp-full/config/database.yml",
+		"/Projects/demo-dev-hp-full/config/compass.rb",
+		"/Projects/demo-dev-hp-full/config/application.rb",
+		"/Projects/demo-dev-hp-full/log/production.log",
+		"/Projects/demo-dev-hp-full/unused reference/hotel-list.html",
+		"/Projects/demo-dev-hp-full/public/cannonball_dateless_hotel.css",
+		"/Projects/demo-dev-hp-full/public/cannonball_dateless_hotel.js",
+		"/Projects/demo-dev-hp-full/public/autoCompleteData-orlando-landmarks.local.json",
+		"/Projects/demo-dev-hp-full/public/autoCompleteData-orlando-cities.local.json",
+		"/Projects/demo-dev-hp-full/public/autoCompleteData-orlando-airports.local.json",
+		"/Projects/demo-dev-hp-full/public/autoCompleteData-orlando-all.local.json",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/autoCompleteData-orlando-landmarks.local.json",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/autoCompleteData-orlando-airports.local.json",
+		"/Projects/typeahead.js/README.md",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/application.css",
+		"/Projects/demo-dev-hp-full/app/controllers/application_controller.rb",
+		"/Projects/demo-dev-hp-full/public/cannonball_dateless_hotel.html",
+		"/Projects/demo-dev-hp-full/config/routes.rb",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/typeahead.min.js",
+		"/Projects/travelocity/travelocity.com ux/social/roam/app-snapshot-files/templates.js",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/cannonball_dateless_hotel.js",
+		"/Projects/demo-dev-hp-full/app/views/static/_cannonball_dateless_hotel.html.erb",
+		"/Projects/demo-dev/demo-dev.sublime-project",
+		"/Projects/demo-dev-hp-full/app/helpers/application_helper.rb",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Projects/travelocity/travelocity dev/tvlyuatdemos/checkout ref archives/trips-new-cb/trips/index.html",
+		"/Projects/demo-dev-hp-full/public/assets/foundation_and_overrides.css",
+		"/Projects/cannonball-variant-tests/hp-test2-messaging/c/etc/designs/aggregated/css/site_us-TvlyCBTest2Messaging.css",
+		"/Projects/demo-dev-hp-full/app/assets/stylesheets/retina.less",
+		"/Projects/demo-dev-hp-full/app/assets/javascripts/retina.js",
+		"/Projects/cannonball-variant-tests/hp-test3-button/hp-test3-button.sublime-project",
+		"/Projects/demo-cb-dev/app/assets/javascripts/tvlyDemoGeoLocation.js",
+		"/Projects/demo-cb-dev/app/views/static/_contact_form.html.erb",
+		"/Projects/demo-cb-dev/app/views/static/contact.html.erb",
+		"/Projects/demo-cb-dev/app/views/layouts/application.html.erb",
+		"/Projects/demo-cb-dev/app/views/layouts/_mainNav.html.erb",
+		"/Projects/demo-cb-dev/app/helpers/nav_link_helper.rb",
+		"/Projects/demo-cb-dev/app/views/shared/_errors.html.erb",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/application.css",
+		"/Projects/demo-cb-dev/config/routes.rb",
+		"/Projects/demo-cb-dev/config/database.yml",
+		"/Projects/demo-cb-dev/Gemfile",
+		"/Projects/demo-cb-dev/app/controllers/static_controller.rb",
+		"/Projects/demo-cb-dev/app/assets/javascripts/application.js",
+		"/Projects/demo-cb-dev/test.txt",
+		"/Projects/cannonball-variant-tests/hp-test3-button/index.html",
+		"/Projects/cannonball-variant-tests/hp-test3-button/c/etc/designs/aggregated/js/site_us-components-js-min-99b096d4.js",
+		"/Projects/cannonball-variant-tests/hp-test3-button/c/etc/designs/aggregated/js/site_us-TvlyCBTest3Button.js",
+		"/Projects/cannonball-variant-tests/button-test.css",
+		"/Users/kbassham/Library/Application Support/Skype/shared.xml",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/jquery-ui-1.8rc3.custom.scss",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/boilerplate.css",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/960.css",
+		"/Projects/demo-cb-dev/app/assets/stylesheets/reset.css",
+		"/Projects/travelocity/travelocity dev/tvlyuatdemos/home-cannonball/demo.1a/index.html",
+		"/Projects/thinkcq-dev/app/assets/stylesheets/style.scss",
+		"/Projects/demo-dev/app/views/static/start.html.erb",
+		"/Projects/demo-cb-dev/app/assets/javascripts/libs/jquery.min.js",
+		"/Projects/demo-cb-dev/config.ru",
+		"/Projects/demo-cb-dev/config/application.rb",
+		"/Projects/demo-cb-dev/config/deploy.rb",
+		"/Projects/demo-cb-dev/config/deploy/production.rb",
+		"/Projects/demo-cb-dev/config/deploy/qa.rb",
+		"/Projects/demo-cb-dev/config/environment.rb",
+		"/Projects/demo-cb-dev/config/environments/development.rb",
+		"/Projects/demo-cb-dev/config/environments/production.rb",
+		"/Projects/demo-cb-dev/config/environments/qa.rb",
+		"/Projects/demo-cb-dev/config/environments/test.rb",
+		"/Projects/demo-cb-dev/config/initializers/secret_token.rb",
+		"/Projects/demo-cb-dev/config/initializers/session_store.rb",
+		"/Projects/demo-cb-dev/Rakefile",
+		"/Projects/demo-cb-dev/README.rdoc",
+		"/Projects/demo-dev/README.rdoc",
+		"/Projects/demo-dev/demo-dev.sublime-workspace",
+		"/Projects/demo-dev/app/assets/javascripts/tvlyDemoStart.js",
+		"/Projects/demo-dev/app/assets/stylesheets/response.css",
+		"/Projects/demo-dev/app/views/layouts/application.html.erb",
+		"/Projects/demo-dev/app/controllers/static_controller.rb",
+		"/Projects/demo-dev/app/assets/stylesheets/reset.css",
+		"/Projects/demo-dev/app/assets/stylesheets/960.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Projects/demo-dev-hp-full/app/assets/javascripts/tvly_demo.js,-zend_cache*",
+			"/Projects/demo-dev-hp-full/app/unused reference/hotels-list.html,-zend_cache*",
+			"/Projects/demo-dev-hp-full/app/unused\\ reference/hotels-list.html,-zend_cache*",
+			"/Projects/demo-dev-hp-full/app/unused reference/hotels-list.html,-zend_cache*",
+			"/Projects/demo-dev-hp-full/app/assets/stylesheets/tvly_demo.css.scss,-zend_cache*",
+			"/Projects/demo-dev-hp-full/,-zend_cache*",
+			"/Projects/demo-cb-dev/,-zend_cache*",
+			"/Projects/demo-dev/,-zend_cache*",
+			"/Projects/carencare-concrete-dev/,-zend_cache*",
+			"/Projects/carencare-concrete-dev/packages/,-zend_cache*",
+			"/Projects/carencare-concrete-dev/,-zend_cache*",
+			"/Projects/carencare-concrete-dev/,-/Projects/carencare-concrete-dev/files/",
+			"/Projects/carencare-concrete-dev/",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"script",
+			"border-box",
+			"border-",
+			"<div class=\"coupon small-12 large-5\">",
+			"large-6",
+			"e8e8e8",
+			"));\n",
+			"gradien",
+			"radius",
+			"border",
+			"promoCode",
+			"promoTitle",
+			"couponTitle",
+			"couponText",
+			"<div class=\"clear\"></div>",
+			"grid-half",
+			"helve",
+			"Vacation Package",
+			"www.travelocity",
+			"/mini",
+			"www.travelocity",
+			">\n",
+			"www.travelocity",
+			"expedia",
+			"travelocity",
+			"expedia",
+			"travelocity",
+			"expedia",
+			"body-f",
+			"small-block-gri",
+			"medium",
+			"grid-4",
+			"hide",
+			"deal",
+			"101",
+			"card",
+			"deals-",
+			"image_",
+			"leader",
+			"hide-",
+			"extend",
+			"top sec",
+			"10%",
+			"10",
+			".package",
+			"-prev",
+			" h3",
+			"prev",
+			"blue",
+			" class=\"button green\"",
+			"single-",
+			"button",
+			"button.whi",
+			".button",
+			"40of",
+			"package-tag",
+			"package",
+			"package-tag",
+			"package-t",
+			"gradien",
+			"linear",
+			"bluegreg",
+			"button",
+			"blue",
+			".orbit-n",
+			"<span class=\"close",
+			".close",
+			"close",
+			"hide",
+			"hide ^",
+			"travel",
+			"room",
+			"travelers",
+			".close",
+			"close",
+			"web",
+			"gener",
+			".button",
+			"datepicker ",
+			"form-ac",
+			"submit",
+			"sponsored",
+			"sponso",
+			"deal-car",
+			"deal",
+			"sponso",
+			"hotels",
+			"'Helvetica Neue', Helvetica, Arial, 'Nimbus Sans', sans-serif",
+			"package-group h3",
+			"'Helvetica', 'Arial', 'Nimbus Sans', sans-serif",
+			"'proximaNova'",
+			"'Anonymous Pro'",
+			"proxim",
+			"prox",
+			"how",
+			"fo",
+			"adult",
+			"toolti",
+			"tooltio",
+			"travel",
+			"flight",
+			"form_he",
+			"transition",
+			".error",
+			"input.err",
+			"succ",
+			"valid",
+			"required",
+			"error",
+			"browser",
+			"high-end",
+			"seniors",
+			"current",
+			"flight",
+			"room-sum",
+			"room-summ",
+			"flight",
+			"search-roo",
+			"rooms-and",
+			".panel",
+			"1px",
+			"focus",
+			"box-shad",
+			"calend",
+			"box-sh",
+			"body-noi",
+			"calend",
+			"box-shad"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"$body-font",
+			"'Helvetica Neue', Helvetica, Arial, 'Nimbus Sans', sans-serif",
+			"'Helvetica', 'Arial', 'Nimbus Sans', sans-serif",
+			"",
+			".footer ",
+			" Ohio",
+			"Ohio",
+			"'",
+			"\",\"",
+			"Georgia, Times, serif",
+			"'proximaNova'",
+			"Multi-city",
+			"image_path('",
+			"url(image_path('",
+			"images/",
+			"url(image_path('",
+			"/images/",
+			"demo-cb-dev",
+			"DemoCbDev",
+			"democbdev",
+			"demo",
+			"../images/",
+			"}\nimages/",
+			"}\n",
+			"",
+			" <span class=\"package none\"> Cars for your trip will be shown.</span>",
+			"<label class=\"multiDest\">",
+			"Multiple destinations",
+			"find-a",
+			"cruise",
+			"&mdash;",
+			"\"text\"",
+			"car",
+			"hotel_tab-",
+			"flight_tab-",
+			"flight-tab_",
+			"flight_tab_",
+			"  ",
+			"",
+			"}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1563,
+								1556
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 89.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"resp",
+				"app/assets/stylesheets/response.scss"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
+			],
+			[
+				"respo",
+				"app/assets/stylesheets/response.scss"
+			],
+			[
+				"start",
+				"app/views/static/start.html.erb"
+			],
+			[
+				"tvly",
+				"app/assets/javascripts/tvly_demo.js"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"header",
+				"app/views/static/_header.html.erb"
+			],
+			[
+				"footer",
+				"app/views/static/_footer.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"type",
+				"app/assets/stylesheets/typeahead.css"
+			],
+			[
+				"dev",
+				"config/environments/development.rb"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"tvl",
+				"app/assets/javascripts/tvly_demo.js"
+			],
+			[
+				"res",
+				"app/assets/stylesheets/response.scss"
+			],
+			[
+				"hea",
+				"app/views/static/_header.html.erb"
+			],
+			[
+				"foo",
+				"app/views/static/_footer.html.erb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"compa",
+				"config/compass.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"respon",
+				"app/assets/stylesheets/response.scss"
+			],
+			[
+				"star",
+				"app/views/static/start.html.erb"
+			],
+			[
+				"head",
+				"app/views/static/_header.html.erb"
+			],
+			[
+				"contro",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"applic",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"respons",
+				"app/assets/stylesheets/response.scss"
+			],
+			[
+				"overr",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"applica",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"foot",
+				"app/views/static/_footer.html.erb"
+			],
+			[
+				"config",
+				"config/compass.rb"
+			],
+			[
+				"static",
+				"app/controllers/static_controller.rb"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/style.scss"
+			],
+			[
+				"geo",
+				"app/assets/javascripts/tvlyDemoGeoLocation.js"
+			],
+			[
+				"plu",
+				"js/plugins.js"
+			],
+			[
+				"plugin",
+				"demo/tvly/hcr/js/plugins.js"
+			],
+			[
+				"caren",
+				"stylesheets/carencare.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"cs",
+				"stylesheets/jquery.mobile.min.css"
+			],
+			[
+				"css",
+				"stylesheets/jquery.mobile.min.css"
+			],
+			[
+				"ind",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": false
+}
