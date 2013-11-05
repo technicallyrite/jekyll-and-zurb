@@ -8,6 +8,9 @@ gem 'bump', '~> 0.5.0'
 
 # Jekyll
 gem 'jekyll', '~> 1.2.1'
+gem 'RedCloth'
+gem 'rack-jekyll'
+gem 'thin'
 
 # Jekyll::AssetsPlugin and dependencies
 gem 'jekyll-assets', '~> 0.7.2'

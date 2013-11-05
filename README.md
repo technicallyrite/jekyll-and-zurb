@@ -1,9 +1,5 @@
 # Jekyll & ZURB
 
-[![Dependency Status](https://gemnasium.com/razor-x/jekyll-and-zurb.png)](https://gemnasium.com/razor-x/jekyll-and-zurb)
-[![Build Status](https://travis-ci.org/razor-x/jekyll-and-zurb.png?branch=master)](https://travis-ci.org/razor-x/jekyll-and-zurb)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/razor-x/jekyll-and-zurb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 Source for your personal blog running on Jekyll and Foundation.
 Just clone and blog: create the `_posts` and `_drafts` folder.
 
@@ -23,7 +19,7 @@ Just clone and blog: create the `_posts` and `_drafts` folder.
 
 Just clone this with
 
-    git clone https://github.com/razor-x/jekyll-and-zurb.git my_blog
+    git clone https://github.com/technicallyrite/jekyll-and-zurb.git my_blog
 
 run `bundle && bower install` and create the `_posts` folder.
 Head over to the [Jekyll Docs](http://jekyllrb.com/docs/home/) for the rest of the details.
@@ -33,16 +29,16 @@ Head over to the [Jekyll Docs](http://jekyllrb.com/docs/home/) for the rest of t
 If you want to merge in future updates from this project and have your own origin,
 set up a separate branch to track this.
 
-    git remote rename origin razorx-jekyll-and-zurb
+    git remote rename origin jekyll-and-zurb
     git branch jekyll-and-zurb
-    git branch -u razorx-jekyll-and-zurb/master jekyll-and-zurb
+    git branch -u jekyll-and-zurb/master jekyll-and-zurb
 
 Then add an origin and push master
 
     git remote add origin git@github.com:username/username-blog.git
     git push -u origin master
 
-Now, the `razorx-jekyll-and-zurb` branch will pull changes from this project,
+Now, the `jekyll-and-zurb` branch will pull changes from this project,
 which you can then merge into your other branches.
 
 ## Updating
