@@ -1,6 +1,6 @@
 # Jekyll options.
-name: Site Name
-#domain: http://example.com
+name: Jekyll test
+domain: http://jekyll-and-zurb.herokuapp.com
 markdown: redcarpet
 pygments: true
 
